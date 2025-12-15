@@ -23,9 +23,13 @@ public class Auto extends Vehiculo{
     public String mostrarInfo() {
        return "AUTO\nMarca: " + getMarca() +
                "\nColor: " + getColor() +
-               "\nTipo de combustible: " + tipoCombustible;
+               "\nTipo de combustible: " + tipoCombustible +
+               "Mi primer commit";
+       
     }
+    
 
+    
     // Get
     public String getTipoCombustible() {
         return tipoCombustible;
