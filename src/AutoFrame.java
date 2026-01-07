@@ -14,9 +14,6 @@ public class AutoFrame extends javax.swing.JFrame {
     // Llamamos la clase Vehiculo
     private Vehiculo v;
     
-    // Atributos que va ha usar el botón registrar
-    
-    
     /**
      * Creates new form AutoFrame
      */
@@ -173,7 +170,6 @@ public class AutoFrame extends javax.swing.JFrame {
             int cilindrada = Integer.parseInt(txtCilindrada.getText());
             v = new Moto(marca, color, cilindrada);
         }
-        
         txtResultado.setText(v.mostrarInfo());
     }//GEN-LAST:event_btnRegistrarActionPerformed
 

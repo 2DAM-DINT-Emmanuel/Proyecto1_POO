@@ -8,7 +8,6 @@
  * @author emmnavmoj
  */
 public class Auto extends Vehiculo{
-    
     // Atributo
     private String tipoCombustible;
     
@@ -24,12 +23,9 @@ public class Auto extends Vehiculo{
        return "AUTO\nMarca: " + getMarca() +
                "\nColor: " + getColor() +
                "\nTipo de combustible: " + tipoCombustible +
-               "Mi primer commit";
-       
+               "Mi primer commit";  
     }
-    
 
-    
     // Get
     public String getTipoCombustible() {
         return tipoCombustible;
@@ -39,11 +35,5 @@ public class Auto extends Vehiculo{
     public void setTipoCombustible(String tipoCombustible) {
         this.tipoCombustible = tipoCombustible;
     }
-    
-    
-    
-    
-    
-    
-    
+
 }

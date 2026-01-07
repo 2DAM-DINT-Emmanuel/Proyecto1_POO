@@ -8,7 +8,6 @@
  * @author emmnavmoj
  */
 public class Moto extends Vehiculo {
-    
     // Atributo
     private int cilindrada;
 

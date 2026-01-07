@@ -7,8 +7,7 @@
  *
  * @author emmnavmoj
  */
-public class Vehiculo {
-    
+public class Vehiculo { 
     // Atributos
     private String marca;
     private String color;
@@ -40,7 +39,5 @@ public class Vehiculo {
 
     public void setColor(String color) {
         this.color = color;
-    }
-    
-    
+    } 
 }
