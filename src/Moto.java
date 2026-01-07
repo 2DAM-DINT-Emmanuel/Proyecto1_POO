@@ -10,10 +10,10 @@
 public class Moto extends Vehiculo {
     
     // Atributo
-    private String cilindrada;
+    private int cilindrada;
 
     // Constructor de la clase padre y le añadimos el atributo de la clase actual
-    public Moto(String marca, String color, String cilindrada) {
+    public Moto(String marca, String color, int cilindrada) {
         super(marca, color);
         this.cilindrada = cilindrada;
     }
@@ -27,12 +27,12 @@ public class Moto extends Vehiculo {
     }
  
     // Get
-    public String getCilindrada() {
+    public int getCilindrada() {
         return cilindrada;
     }
 
     // Set
-    public void setCilindrada(String cilindrada) {
+    public void setCilindrada(int cilindrada) {
         this.cilindrada = cilindrada;
     }
     

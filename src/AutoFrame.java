@@ -170,7 +170,7 @@ public class AutoFrame extends javax.swing.JFrame {
             String combustible = txtCombustible.getText();
             v = new Auto(marca, color, combustible);
         }else{
-            String cilindrada = txtCilindrada.getText();
+            int cilindrada = Integer.parseInt(txtCilindrada.getText());
             v = new Moto(marca, color, cilindrada);
         }
         
